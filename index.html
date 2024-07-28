@@ -44,9 +44,9 @@
 
 <body class="font-poppins">
     <!-- header start -->
-    <header class="my-2 md:my-6 lg:my-10">
+    <header class="container mx-auto px-6 lg:px-16">
         <!-- navbar section start here -->
-        <nav class="navbar container mx-auto px-6 lg:px-16">
+        <nav class="navbar my-2 md:my-6 lg:my-10">
             <div class="navbar-start">
                 <div class="dropdown">
                     <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -143,14 +143,40 @@
                 </ul>
             </div>
             <div class="navbar-end">
-                <button class="hidden md:block btn text-lg px-7 rounded-lg text-white bg-justice font-semibold hover:bg-justice">Free Consultation</button>
+                <button
+                    class="hidden md:block text-lg px-7 py-4 rounded-lg text-white bg-justice font-semibold hover:bg-justice">Free
+                    Consultation</button>
             </div>
         </nav>
         <!-- navbar section end here -->
+        <!-- banner section start here -->
+        <section class="hero p-6 md:p-14 lg:p-24 rounded-lg" style="background: linear-gradient(
+                rgba(0,0,0, 0),
+                rgba(0,0,0, 100)),url(../images/banner.png);">
+            <!-- <div class="hero-overlay bg-opacity-60"></div> -->
+            <div class="hero-content text-neutral-content text-center">
+                <div class="lg:max-w-2xl">
+                    <h1 class="font-EB-Garamond mb-6 leading-[#60px] lg:leading-[80px] text-4xl md:text-6xl lg:text-7xl font-extrabold">We Provide Effective Legal Solutions</h1>
+                    <p class="text-[#E7E7E7] mb-8">
+                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                        alteration in some form, by injected humour.
+                    </p>
+                    <div class="flex flex-col md:flex-row gap-6">
+                        <input class="flex-1 bg-white text-[#A0A0A0] px-5 py-4 outline-0 border-0 rounded-lg" type="text"
+                            placeholder="Search your services">
+                        <button
+                            class="flex-1 text-lg px-10 py-4 rounded-lg text-white bg-justice font-semibold hover:bg-justice border-0">Search</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- banner section end here -->
     </header>
     <!-- header end -->
     <!-- main start -->
-    <main></main>
+    <main class="container mx-auto px-6 lg:px-16 my-10 lg:my-20">
+
+    </main>
     <!-- main end -->
     <!-- footer start -->
     <footer></footer>
