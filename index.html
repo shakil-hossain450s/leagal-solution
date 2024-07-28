@@ -24,6 +24,7 @@
                 extend: {
                     colors: {
                         clifford: '#da373d',
+                        justice: '#B68C5A',
                     }
                 }
             }
@@ -41,13 +42,110 @@
     </style>
 </head>
 
-<body>
+<body class="font-poppins">
     <!-- header start -->
-    <header>
+    <header class="my-2 md:my-6 lg:my-10">
         <!-- navbar section start here -->
-         <nav>
-            
-         </nav>
+        <nav class="navbar container mx-auto px-6 lg:px-16">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-[#707070]">
+                        <li><a>Home</a></li>
+                        <li>
+                            <details>
+                                <summary>Services</summary>
+                                <ul class="p-2">
+                                    <li><a>Submenu1</a></li>
+                                    <li><a>Submenu2</a></li>
+                                </ul>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>Cases</summary>
+                                <ul class="p-2">
+                                    <li><a>Submenu1</a></li>
+                                    <li><a>Submenu2</a></li>
+                                </ul>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>Blog</summary>
+                                <ul class="p-2">
+                                    <li><a>Submenu1</a></li>
+                                    <li><a>Submenu2</a></li>
+                                </ul>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>Contact Us</summary>
+                                <ul class="p-2">
+                                    <li><a>Submenu1</a></li>
+                                    <li><a>Submenu2</a></li>
+                                </ul>
+                            </details>
+                        </li>
+                    </ul>
+                </div>
+                <a href="#">
+                    <img class="w-full" src="./images/logo2.png" alt="logo">
+                </a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1 text-[#707070]">
+                    <li><a>Home</a></li>
+                    <li>
+                        <details>
+                            <summary>Services</summary>
+                            <ul class="p-2">
+                                <li><a>Submenu1</a></li>
+                                <li><a>Submenu2</a></li>
+                            </ul>
+                        </details>
+                    </li>
+                    <li>
+                        <details>
+                            <summary>Cases</summary>
+                            <ul class="p-2">
+                                <li><a>Submenu1</a></li>
+                                <li><a>Submenu2</a></li>
+                            </ul>
+                        </details>
+                    </li>
+                    <li>
+                        <details>
+                            <summary>Blog</summary>
+                            <ul class="p-2">
+                                <li><a>Submenu1</a></li>
+                                <li><a>Submenu2</a></li>
+                            </ul>
+                        </details>
+                    </li>
+                    <li>
+                        <details>
+                            <summary>Contact Us</summary>
+                            <ul class="p-2">
+                                <li><a>Submenu1</a></li>
+                                <li><a>Submenu2</a></li>
+                            </ul>
+                        </details>
+                    </li>
+                </ul>
+            </div>
+            <div class="navbar-end">
+                <button class="hidden md:block btn text-lg px-7 rounded-lg text-white bg-justice font-semibold hover:bg-justice">Free Consultation</button>
+            </div>
+        </nav>
         <!-- navbar section end here -->
     </header>
     <!-- header end -->
